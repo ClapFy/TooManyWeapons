@@ -1,0 +1,89 @@
+name: DragonWeapons
+version: ${project.version}
+main: com.clapmc.dragonweapons.DragonWeapons
+api-version: "1.21"
+description: Custom magical weapons for Paper
+author: ClapMC
+
+commands:
+  enderbow:
+    description: Gives the Dragon Bow
+    usage: /enderbow [player]
+    permission: dragonweapons.enderbow
+  dragonbow:
+    description: Alias for the Dragon Bow
+    usage: /dragonbow [player]
+    permission: dragonweapons.enderbow
+  explosivebow:
+    description: Gives the Explosive Bow
+    usage: /explosivebow [player]
+    permission: dragonweapons.explosivebow
+  phoenixbow:
+    description: Gives the Phoenix Bow
+    usage: /phoenixbow [player]
+    permission: dragonweapons.phoenixbow
+  waterbow:
+    description: Gives the Water Bow
+    usage: /waterbow [player]
+    permission: dragonweapons.waterbow
+  stormtrident:
+    description: Gives the Storm Trident
+    usage: /stormtrident [player]
+    permission: dragonweapons.stormtrident
+  tidaltrident:
+    description: Gives the Tidal Trident
+    usage: /tidaltrident [player]
+    permission: dragonweapons.tidaltrident
+  voidscythe:
+    description: Gives the Void Scythe
+    usage: /voidscythe [player]
+    permission: dragonweapons.voidscythe
+  voidsphere:
+    description: Gives the Void Sphere
+    usage: /voidsphere [player]
+    permission: dragonweapons.voidsphere
+  tidehit:
+    description: Gives the Tide Hit weapon
+    usage: /tidehit [player]
+    permission: dragonweapons.tidehit
+  tideguide:
+    description: Shows the Tide Hit ability guide
+    usage: /tideguide
+    permission: dragonweapons.tideguide
+  tideleave:
+    description: Leaves the Tide Hit Ice Rift
+    usage: /tideleave
+    permission: dragonweapons.tideleave
+  tidemode:
+    description: Selects a Tide Hit mode
+    usage: /tidemode <0-13|name> | /tidemode <player> <mode>
+    permission: dragonweapons.tidemode
+
+permissions:
+  dragonweapons.enderbow:
+    default: op
+  dragonweapons.explosivebow:
+    default: op
+  dragonweapons.phoenixbow:
+    default: op
+  dragonweapons.waterbow:
+    default: op
+  dragonweapons.stormtrident:
+    default: op
+  dragonweapons.tidaltrident:
+    default: op
+  dragonweapons.voidscythe:
+    default: op
+  dragonweapons.voidsphere:
+    default: op
+  dragonweapons.tidehit:
+    default: op
+  dragonweapons.tideguide:
+    default: op
+  dragonweapons.tideleave:
+    default: op
+  dragonweapons.tidemode:
+    default: op
+  dragonweapons.others:
+    description: Allows giving custom weapons to other players
+    default: op
